@@ -3,3 +3,4 @@ document.getElementById("callButton").addEventListener("click",function(e){
     e.preventDefault()
     // console.log("call button clicked")
 })
+// heart icon functionality

@@ -111,11 +111,33 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 ### 6. Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+
+getElementById: This method finds an element with a specific id. It returns only one element object.
+getElementsByClassName: This method finds multiple elements with a specific class name. The same class can have multiple elements.
+querySelector: This method finds the first element that matches the CSS selector. It returns a single Element object.
+querySelectorAll: This method finds all elements that match the specific CSS selector.
+
 2. How do you **create and insert a new element into the DOM**?
+
+By using createElement and appendChild, we can make new HTML element and add that to DOM.
+First, we need to create a new element by using document.createElement() method.
+Second, the newly generated element needs to be appended appendChild() to an already-existing parent element in order to be visible in the DOM.
+
 3. What is **Event Bubbling** and how does it work?
+
+When an event starts from a lower-level, it is caled Event bubbling. When an event (click) takes place on an element, Js Event Bubbling enables that element to respond first, until it reaches the very top of the DOM tree.
+
 4. What is **Event Delegation** in JavaScript? Why is it useful?
+
+It is very useful for handling dynamic cases.tThere are 3 steps in Event Delegation.
+step 1- determine the parent of event to see elements.
+step 2- attatch the event listener to parent element.
+step 3- use event.target to select the target element.
+
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
+ stopPropagation(): To stop event bubbing, we use event.stopPropagation() methos.This method helps to stop an event going further of a DOM tree.
+ preventDefault(): preventDefault() ia a JavaScript method that turns off an event's default or usual behavior. The browser performs some of its own default activities when an event takes place such click a link or submit form.
 ---
 
 ## 🧪 Challenges Part (10 Marks)

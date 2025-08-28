@@ -11,25 +11,40 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-[#dfefff] h-[100vh]">
-    <header>
-        <div class="flex justify-between items-center">
+    <header class="bg-white">
+        <div class="flex justify-between items-center border-b-1 border-green-400 p-3">
             <div class="flex">
                 <img src="./assets/logo.png" class="h-[50px]" alt="" srcset="">
-                <p class="font-bold">Emergency<br>Service</p>
+                <p class="font-bold text-[#006747]">Emergency<br>Service</p>
+
+            </div>
+            <div class="flex">
+                <h2 class="font-bold">0</h2> <img src="./assets/heart.png" class="h-[30px] alt="" srcset="">
+                <h2 class="font-bold">100</h2> <img src="./assets/coin.png" class="h-[30px] alt="" srcset="">
+                <button class="btn text-white bg-[#00a63e]">Copy</button>
+            </div>   
+        </div>
+    </header>
+    <main>
+        <div class="mt-7 bg-[#006747] justify-center items-center">
+            <img src="./assets/logo-dark.png" alt="" srcset="">
+            <h1 class="text-white text-2xl font-bold">Emergency Service Directory</h1>
+            <p class="text-white text-xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+        <div>
+            <div>
+                <img src="./assets/emergency.png" alt="" srcset="">
+                <h1>National Emergency Number</h1>
+                <p>National Emergency</p>
+                <h1>999</h1>
+                <p>All</p>
+                <button class="btn text-gray bg-[#ffffff]"> <i class="fa-regular fa-copy"></i>Copy</button>
+            <button class="btn text-white bg-[#00a63e]" id="callButton"> <i class="fa-light fa-phone"></i>Call</button>
 
             </div>
             <div>
-                <h2 class="font-bold">0</h2> <img src="./assets/heart.png" class="h-[30px] alt="" srcset="">
-                <h2 class="font-bold">100</h2> <img src="./assets/coin.png" class="h-[30px] alt="" srcset="">
-                <button class="btn">Default</button>
-            </div>
-        </div>
 
-    </header>
-    <main>
-        <div>
-            <button class="btn text-gray bg-[#ffffff]">Copy</button>
-            <button class="btn text-white bg-[#00a63e]" id="callButton">Call</button>
+            </div>
         </div>
 
     </main>

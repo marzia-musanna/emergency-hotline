@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emergency Hotline</title>
+    <!-- tailwind css and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- font awsome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+<body class="bg-[#dfefff] h-[100vh]">
+    <header>
+        <div class="flex justify-between items-center">
+            <div class="flex">
+                <img src="./assets/logo.png" class="h-[50px]" alt="" srcset="">
+                <p class="font-bold">Emergency<br>Service</p>
+
+            </div>
+            <div>
+                <h2 class="font-bold">0</h2> <img src="./assets/heart.png" class="h-[30px] alt="" srcset="">
+                <h2 class="font-bold">100</h2> <img src="./assets/coin.png" class="h-[30px] alt="" srcset="">
+                <button class="btn">Default</button>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <button class="btn text-gray bg-[#ffffff]">Copy</button>
+            <button class="btn text-white bg-[#00a63e]" id="callButton">Call</button>
+        </div>
+
+    </main>
+    <!-- js scripts -->
+
+    <script src="./script.js"></script>
 </body>
 </html>
